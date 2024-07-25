@@ -42,7 +42,7 @@ export default function App() {
       <Header username={username} onSignOut={isSignOut} />
         <Routes>
         <Route 
-            path="/prometheus-x-course-task/" 
+            path="/" 
             element={<Navigate to="/signin" />} 
         />
           <Route 
