@@ -38,7 +38,7 @@ export default function App() {
   return (
     <BooksProvider>
     <div className="d-flex flex-column min-vh-100">
-      <Router>
+      <Router basename="/prometheus-x-course-task">
       <Header username={username} onSignOut={isSignOut} />
         <Routes>
         <Route 
