@@ -1,0 +1,60 @@
+.signin-container {
+    margin-top: 100px !important;
+}
+
+.signin-avatar {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    max-height: 160px;
+}
+
+.outline-button {
+    border-color: #7FD6C2 !important;
+    color: #7FD6C2 !important;
+}
+
+.outline-button:hover {
+    background-color: #7FD6C2 !important;
+    color: #383A48 !important;
+}
+
+.border-form {
+    border-color: #7FD6C2 !important;
+}
+
+.border-form:focus {
+    border-color: #7FD6C2 !important;
+    box-shadow: 0 0 0 2px #7FD6C2 !important;
+}
+
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widthtype {
+    max-width: 200px;
+}
+
+@media screen and (max-width: 320px) {
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        padding: 0 8px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .form-group-text, .form-group-button {
+        max-width: calc(100% - 16px);
+        margin: 0 auto;
+    }
+
+    .signin-avatar {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}

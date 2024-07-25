@@ -1,0 +1,25 @@
+.header-cart {
+    width: 50%;
+    max-width: 50px;
+    height: auto;
+    max-height: 50px;
+}
+
+.outline-button {
+    border-color: #7FD6C2 !important;
+    color: #7FD6C2 !important;
+}
+
+.outline-button:hover {
+    background-color: #7FD6C2 !important;
+    color: #383A48 !important;
+}
+
+.user-name {
+    color: white !important;
+    font-size: larger !important;
+}
+
+.brand:hover {
+    cursor: pointer !important;
+}

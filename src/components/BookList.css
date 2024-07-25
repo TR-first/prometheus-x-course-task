@@ -1,0 +1,70 @@
+.outline-button {
+    border-color: #7FD6C2 !important;
+    color: #7FD6C2 !important;
+}
+
+.outline-button:hover {
+    background-color: #7FD6C2 !important;
+    color: #383A48 !important;
+}
+
+.border-form {
+    border-color: #7FD6C2 !important;
+}
+
+.search {
+    border-right: none !important;
+}
+
+.border-form:focus {
+    border-color: #7FD6C2 !important;
+    box-shadow: 0 0 0 2px #7FD6C2 !important;
+}
+
+.card-image {
+    max-height: 400px;
+    width: auto;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.card-image-books {
+    height: 50%;
+}
+
+.card-image-book {
+    height: 100%;
+}
+
+.price-text {
+    color: #00676C !important;
+}
+
+.marginTop-6 {
+    margin-top: 6rem;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.color-border {
+    border-color:  #00676C !important;
+}
+
+.option-form {
+    border: 1px solid #7FD6C2 !important;
+    cursor: pointer;
+}
+
+.option-form option:checked {
+    background-color: #7FD6C2 !important;
+}
+
+.loupe {
+    background-color: white !important;
+    border: 1px solid #7FD6C2 !important;
+    border-left: none !important;
+}
