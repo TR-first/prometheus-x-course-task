@@ -38,7 +38,7 @@ export default function App() {
   return (
     <BooksProvider>
     <div className="d-flex flex-column min-vh-100">
-      <HashRouter>
+      <Router>
       <Header username={username} onSignOut={isSignOut} />
         <Routes>
         <Route 
@@ -58,7 +58,7 @@ export default function App() {
           />
           <Route path="*" element={ <PageNotFound />} />
         </Routes>
-      </HashRouter>
+      </Router>
       <Footer />
     </div>
     </BooksProvider>
