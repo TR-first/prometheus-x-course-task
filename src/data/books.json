@@ -3,7 +3,7 @@
 			"id": 1,
 			"author": "David Flanagan",
 			"price": 10.99,
-			"image": "images/books/javascript_the_definitive_guide.jpg",
+			"image": "books/javascript_the_definitive_guide.jpg",
 			"title": "JavaScript: The Definitive Guide, 7th Edition",
 			"level": "Beginner",
 			"tags": [
@@ -35,7 +35,7 @@
 			"id": 3,
 			"author": "Adam D. Scott",
 			"price": 8.99,
-			"image": "../images/books/javascript_everywhere.jpg",
+			"image": "books/javascript_everywhere.jpg",
 			"title": "JavaScript Everywhere",
 			"level": "Beginner",
 			"tags": [
