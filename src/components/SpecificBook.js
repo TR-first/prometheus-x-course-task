@@ -68,7 +68,7 @@ export default function SpecificBook() {
     'node_for_front_end_developers': require('../images/books/node_for_front_end_developers.jpg').default,
 };
 
-const bookImage = images[book.imageName] || imageNotFound;
+const bookImage = images[book.image] || imageNotFound;
 
   return (
     <Container className="marginTop-6 flex-grow-1">
