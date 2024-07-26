@@ -47,7 +47,7 @@ export default function SpecificBook() {
   };
 
   const images = {
-  'javascript_the_definitive_guide': require('../images/books/javascript_the_definitive_guide.jpg').default,
+  'javascript_the_definitive_guide': require('/prometheus-x-course-task/static/media/books/javascript_the_definitive_guide.jpg').default,
   'javascript_everywhere': require('../images/books/javascript_everywhere.jpg').default,
     'learning_react_2nd_edition': require('../images/books/learning_react_2nd_edition.jpg').default,
     'react_up_and_running_2nd_edition': require('../images/books/react_up_and_running_2nd_edition.jpg').default,
