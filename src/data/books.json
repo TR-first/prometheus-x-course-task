@@ -3,7 +3,7 @@
 			"id": 1,
 			"author": "David Flanagan",
 			"price": 10.99,
-			"image": "/images/books/javascript_the_definitive_guide.jpg",
+			"image": "https://courses.prometheus.org.ua/asset-v1:Ciklum+FEB101+2022_T3+type@asset+block@javascript_the_definitive_guide.jpg",
 			"title": "JavaScript: The Definitive Guide, 7th Edition",
 			"level": "Beginner",
 			"tags": [
