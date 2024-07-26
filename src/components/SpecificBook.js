@@ -46,11 +46,35 @@ export default function SpecificBook() {
     setSmShow(true);
   };
 
+  const images = {
+  'javascript_the_definitive_guide': require('../images/books/javascript_the_definitive_guide.jpg').default,
+  'javascript_everywhere': require('../images/books/javascript_everywhere.jpg').default,
+    'learning_react_2nd_edition': require('../images/books/learning_react_2nd_edition.jpg').default,
+    'react_up_and_running_2nd_edition': require('../images/books/react_up_and_running_2nd_edition.jpg').default,
+    'css_the_definitive_guide_5th_edition': require('../images/books/css_the_definitive_guide_5th_edition.jpg').default,
+    'learning_test_driven_development': require('../images/books/learning_test_driven_development.jpg').default,
+    'angular_up_and_running': require('../images/books/angular_up_and_running.jpg').default,
+    'restful_web_apis': require('../images/books/restful_web_apis.jpg').default,
+    'universal_design_for_web_applications': require('../images/books/universal_design_for_web_applications.jpg').default,
+    'websocket': require('../images/books/websocket.jpg').default,
+    'securing_ajax_applications': require('../images/books/securing_ajax_applications.jpg').default,
+    'version_control_with_git_3rd_edition': require('../images/books/version_control_with_git_3rd_edition.jpg').default,
+    'mongodb_the_definitive_guide_3rd_edition': require('../images/books/mongodb_the_definitive_guide_3rd_edition.jpg').default,
+    'learning_git': require('../images/books/learning_git.jpg').default,
+    'using_svg_with_css3_and_html5': require('../images/books/using_svg_with_css3_and_html5.jpg').default,
+    'svg_animations': require('../images/books/svg_animations.jpg').default,
+    'git_for_teams': require('../images/books/git_for_teams.jpg').default,
+    'learning_node_2nd_edition': require('../images/books/learning_node_2nd_edition.jpg').default,
+    'node_for_front_end_developers': require('../images/books/node_for_front_end_developers.jpg').default,
+};
+
+const bookImage = images[book.imageName] || imageNotFound;
+
   return (
     <Container className="marginTop-6 flex-grow-1">
       <Row>
         <Col md={3}>
-          <Image src={book.image || imageNotFound} className='card-image card-image-book' alt={book.title} />
+          <Image src={bookImage} className='card-image card-image-book' alt={book.title} />
         </Col>
         <Col md={5}>
           <Card className='no-border'>
