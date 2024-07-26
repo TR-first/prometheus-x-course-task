@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { BooksProvider } from './context/BooksContext';
 import SignIn from './components/SignIn';
 import BookList from './components/BookList';
@@ -38,7 +38,7 @@ export default function App() {
   return (
     <BooksProvider>
     <div className="d-flex flex-column min-vh-100">
-      <Router basename="/prometheus-x-course-task">
+      <Router>
       <Header username={username} onSignOut={isSignOut} />
         <Routes>
         <Route 
